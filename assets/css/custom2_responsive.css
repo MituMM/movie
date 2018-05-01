@@ -1,0 +1,358 @@
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+
+@media only screen and (min-width: 1280px) {
+
+    #header .top-header.sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+        background: #222;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    #header.header-4 .top-header.sticky {
+        background: #f7f7f9;
+    }
+
+}
+
+@media only screen and (max-width: 1199px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media (min-width: 992px) {}
+
+@media (max-width:768px) {
+
+}
+
+@media (min-width:769px) {}
+
+@media (min-width: 769px) and (max-width: 992px) {}
+
+@media (min-width: 320px) and (max-width: 480px) {}
+@media only screen and (max-width:768px) {
+    .my-nav {
+	background: rgb(14, 13, 13);
+}
+.my-nav .navbar-brand img {
+            padding: 0px 0px;
+            width: 100px;
+            position: relative;
+    margin: 0 10px;
+        }
+        .my-nav .navbar-brand {
+            padding: 0px 0;
+        }
+        .navbar-nav {
+
+            left: 0%;
+        }
+
+        header {
+            position: relative;
+            width: 100%;
+        }
+    .mid_content {
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+    .gal_img a {
+	
+	left: 25%;
+	
+}
+}
+
+@media only screen and (max-width:600px) {
+        .my-nav {
+	background: rgb(14, 13, 13);
+}
+   .my-nav .navbar-brand img {
+            padding: 0px 0px;
+            width: 100px;
+            position: relative;
+    margin: 0 10px;
+        }
+        .my-nav .navbar-brand {
+            padding: 0px 0;
+        }
+        .navbar-nav {
+
+            left: 0%;
+        }
+
+        header {
+            position: relative;
+            width: 100%;
+        }
+    .mid_content {
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+    
+}
+
+
+    @media only screen and (max-width:480px) {
+
+
+
+    /*	navbar/header part
+	/* -------------------------------------------------- */
+    .my-nav {
+	background: rgb(14, 13, 13);
+}
+.my-nav .navbar-brand img {
+            padding: 0px 0px;
+            width: 100px;
+            position: relative;
+    margin: 0 10px;
+        }
+        .my-nav .navbar-brand {
+            padding: 0px 0;
+        }
+        .navbar-nav {
+
+            left: 0%;
+        }
+
+        header {
+            position: relative;
+            width: 100%;
+        }
+  .social_media{
+      float: left;
+  }
+.search-btn {
+position: absolute;
+right: 25px;
+}
+  .search-txt {
+width: 100%;
+}
+  .search-box:hover > .search-txt{
+width: 100%;
+padding: 0 2px;
+}
+.mid_content {
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.single_item .mid_content h1 {
+font-size: 25px;
+margin: 0;
+}
+.single_item .mid_content h2 {
+font-size: 15px;
+margin: 0;
+}
+.single_item .mid_content p {
+margin:10px;
+}
+.single_item .mid_content .btn1 {
+padding:5px 25px 0px 10px;
+top: 0%;
+}
+.single_item .mid_content .btn1::before {
+	border-bottom: 38px solid #f46523;
+}
+.single_item .mid_content .btn1:hover::before {
+	border-bottom: 38px solid #fff;
+}
+.single_item .mid_content .btn2::before {
+	border-top: 38px solid #f46523;
+}
+.single_item .mid_content .btn2:hover::before {
+	border-top: 38px solid #fff;
+}
+.single_item .mid_content .btn2 {
+padding: 5px 25px 0px 10px;
+bottom: 5%;
+}
+    /*	content part
+	/* -------------------------------------------------- */
+
+  .page_title {
+  height:200px;
+
+}
+.similar_post_img {
+	margin-bottom: 10px;
+}
+  .cat_img {
+  	margin: 10px 0px;
+  }
+
+  .hover_icon a {
+  	left: 265%;
+  }
+  .column {
+  	display: inline-block;
+  	margin-top: 25px;
+  	padding: 10px;
+  }
+  .release img {
+	height: 300px;
+	object-fit: cover;
+}
+  .release_content {
+	top: 0%;
+	left: 20%;
+}
+  .release_content h1{
+    font-size: 25px;
+  }
+  .slider-active .owl-dots {
+	bottom: 0%;
+
+}
+.release_img img{
+    height: auto;
+}
+.category_img img{
+width: 100%;
+}
+
+
+     }
+
+@media only screen and (max-width:320px){
+    p{
+        font-size: 13px;
+    }
+    h2 {
+
+    }
+    /*	navbar/header part
+	/* -------------------------------------------------- */
+        .my-nav {
+	background: rgb(14, 13, 13);
+}
+ .my-nav .navbar-brand img {
+            padding: 0px 0px;
+            width: 100px;
+            position: relative;
+        }
+        .my-nav .navbar-brand {
+            padding: 0px 0;
+        }
+        .navbar-nav {
+
+            left: 0%;
+        }
+
+        header {
+            position: relative;
+            width: 100%;
+        }
+    .social_media{
+        float: left;
+    }
+.search-btn {
+	position: absolute;
+	right: 25px;
+}
+    .search-txt {
+	width: 100%;
+}
+    .search-box:hover > .search-txt{
+  width: 100%;
+  padding: 0 2px;
+}
+.mid_content {
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.mid_content {
+right: 0;
+}
+    .mid_content a {
+	padding: 5px 10px;
+	margin: 0 10px;
+
+	font-size: 13px;
+}
+.mid_content a:hover{
+	font-size: 13px;
+}
+.single_item .mid_content h1 {
+	font-size: 25px;
+	margin: 0;
+}
+.single_item .mid_content h2 {
+	font-size: 15px;
+	margin: 0;
+}
+.single_item .mid_content p {
+	margin: 0;
+}
+.single_item .mid_content .btn1 {
+	padding: 5px 25px 0px 10px;
+	bottom: 5%;
+}
+.single_item .mid_content .btn2 {
+	padding: 5px 25px 0px 10px;
+	bottom: 5%;
+}
+.my-nav {
+	background: rgba(1, 1, 1, 0.8);
+}
+    /*	content part
+	/* -------------------------------------------------- */
+  .page_title {
+	height:145px;
+	background-size: contain;
+
+}
+  .cat_img {
+  	margin: 10px 0px;
+  }
+
+  .hover_icon a {
+  	left: 155%;
+  }
+  .column {
+  	display: inline-block;
+  	margin-top: 25px;
+  	padding: 10px;
+  }
+  .release img {
+	height: 300px;
+	object-fit: cover;
+}
+  .release_content {
+	top: 0%;
+	left: 0;
+}
+  .release_content h1{
+    font-size: 25px;
+  }
+  .slider-active .owl-dots {
+	bottom: 0%;
+
+}
+.release_img img{
+    height: auto;
+}
+    .single_post{
+        margin-top: 10px;
+    }
+      /*	footer part
+  	/* -------------------------------------------------- */
+    }

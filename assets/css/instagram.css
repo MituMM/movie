@@ -1,0 +1,111 @@
+@viewport{user-zoom: fixed;}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  border: none;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      box-sizing: border-box;
+}
+
+a,
+button{
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+ul,
+ol{
+  list-style: none;
+}
+
+  /* Widget instagram */
+
+  img{
+  vertical-align: top; 
+  max-width: 100%;
+}
+   
+  .widget-instagram .instagram-feed{margin: 0 -5px -10px -5px;}
+
+    .widget-instagram .instagram-feed li{
+      margin: 0;
+      width: 33.3%;
+      padding: 0 5px 10px 5px;
+    }
+
+    .instagram-feed li{
+      display: inline-block;
+      position: relative;
+    }
+
+    .instagram-feed li a{
+      display: block;
+      position: relative;
+    }
+
+    .instagram-feed li a:after{
+      pointer-events: none;
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      bottom: -1px;
+      right: 0;
+      
+      filter: alpha(opacity=0);
+
+      -webkit-transition: all .5s ease;
+      -o-transition: all .5s ease;
+      transition: all .5s ease;
+    }
+
+    .instagram-feed li:hover a:after {
+        background: #099fd7;
+      opacity: 0.5;
+
+    }
+
+  .widget-instagram.full-width{position: relative;}
+
+    .widget-instagram.full-width .instagram-feed{margin: 0;}
+
+      .widget-instagram.full-width .follow-section{
+        position: absolute;
+        top: 50%;
+        left: calc(50% - 125px);
+        text-align: center;
+        background: rgba(34,34,34,0.9);
+        text-align: center;
+        padding: 52px 20px;
+        width: 250px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 9px;
+        letter-spacing: 1px;
+        display: inline-block;
+
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+
+      .widget-instagram.full-width .instagram-feed li{
+        width: 16.666%;
+    
+      }
+
+      .widget-instagram.full-width .follow-section:hover{color: #ffa687;}
+
+	  
+@media only screen and (max-width: 992px){
+
+
+	.widget-instagram.full-width .instagram-feed li{width: 33.3%;}
+
+}

@@ -1,0 +1,551 @@
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+
+@media only screen and (min-width: 1280px) {
+
+    #header .top-header.sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 99;
+        background: #222;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    #header.header-4 .top-header.sticky {
+        background: #f7f7f9;
+    }
+
+}
+
+@media only screen and (max-width: 1199px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media (max-width: 1024px) {
+
+    .realease_btn a {
+        margin-right: 0px;
+    }
+}
+
+@media (min-width: 992px) {}
+
+@media only screen and (max-width:768px) {
+    p,
+    a {
+        font-size: 13px;
+    }
+
+
+    .my-nav .navbar-brand img {
+        padding: 0px 0px;
+        width: 100px;
+        position: relative;
+    }
+    .my-nav .navbar-brand {
+        padding: 0px 0;
+    }
+    .navbar-nav {
+
+        left: 0%;
+    }
+    .single_item .mid_content h1 {
+	font-size: 50px;
+}
+    .mid_content {
+max-width: 100%;
+        color: #fff;
+}
+    .single_item .mid_content .btn1::before {
+	border-bottom: 35px solid #f46523;
+
+}
+        .single_item .mid_content .btn1:hover:before {
+	border-bottom: 35px solid #fff;
+
+}
+        .single_item .mid_content .btn2::before {
+	border-top: 35px solid #f46523;
+
+}
+            .single_item .mid_content .btn2:hover:before {
+	border-top: 35px solid #fff;
+
+}
+    .release_content h1{
+	font-size: 25px;
+        
+        margin: 0;
+}
+        .release_content p{
+	margin: 0;
+}
+    .release_img figcaption p {
+	font-size: 11px;
+}
+        .release_img figcaption h5{
+	font-size: 14px;
+}
+    .realease_btn a {
+	padding: 2px 3px;
+	font-size: 12px;
+}
+    .footer_top h3 {
+	color: #ddd;
+	font-size: 20px;
+}
+    .box_movie_text {
+	height: 25%;
+	font-size: 12px;
+}
+    .text_hide {
+	font-size: 8px;
+}
+    .free_text_hide {
+	font-size: 8px;
+}
+.free_movie_text {
+	height: 25%;
+	font-size: 12px;
+}
+    .free_movie:hover .free_movie_text {
+	height: 100%;
+}
+    .slider-active .owl-dots {
+	bottom: 10%;
+
+}
+    .hover_icon a {
+	width: 35px;
+	height: 35px;
+
+	left: 90%;
+}
+    .hover_icon a i {
+	top: 0px;
+	font-size: 13px;
+	left: 3px;
+}
+    .icon_overlay i {
+	font-size: 30px;
+	bottom: 150%;
+}
+}
+@media only screen and (max-width:600px) {
+    header{
+        position: relative;
+    }
+    .mid_content {
+	position: absolute;
+	top: 5%;
+	left: 0%;
+}
+     .release_content h1{
+	font-size: 25px;
+        
+        margin: 0;
+}
+        .release_content p{
+	margin: 0;
+}
+    .release_img figcaption p {
+	font-size: 11px;
+}
+        .release_img figcaption h5{
+	font-size: 14px;
+}
+    .realease_btn a {
+	padding: 2px 3px;
+	font-size: 12px;
+}
+    
+}
+@media only screen and (max-width:800px) {
+         .my-nav .navbar-brand img {
+            padding: 0px 0px;
+            width: 100px;
+            position: relative;
+        }
+        .my-nav .navbar-brand {
+            padding: 0px 0;
+        }
+        .navbar-nav {
+
+            left: 0%;
+        }
+        header {
+            position: relative;
+            width: 100%;
+        }
+    .my-nav .navbar-brand img {
+}
+        .mid_content {
+            top: 0;
+            left: 0;
+        }
+.release_content {
+	top: 3%;
+
+}
+     .release_content h1{
+	font-size: 25px;
+        
+        margin: 0;
+}
+        .release_content p{
+	margin: 0;
+}
+    .release_img figcaption p {
+	font-size: 11px;
+}
+        .release_img figcaption h5{
+	font-size: 14px;
+}
+    .realease_btn a {
+	padding: 2px 3px;
+	font-size: 12px;
+}
+     .box_movie_text {
+	height: 25%;
+	font-size: 12px;
+}
+    .text_hide {
+	font-size: 8px;
+}
+    .free_text_hide {
+	font-size: 8px;
+}
+.free_movie_text {
+	height: 25%;
+	font-size: 12px;
+}
+    .free_movie:hover .free_movie_text {
+	height: 100%;
+}
+        .footer_top h3 {
+	color: #ddd;
+	font-size: 20px;
+}
+        .slider-active .owl-dots {
+	bottom: 10%;
+
+}
+        .hover_icon a {
+	width: 35px;
+	height: 35px;
+padding: 5px 0;
+	left: 90%;
+}
+    .hover_icon a i {
+	top: 0px;
+	font-size: 13px;
+	left: 3px;
+}
+    
+}
+@media (min-width:769px) {}
+
+@media (min-width: 769px) and (max-width: 992px) {}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+    @media only screen and (max-width: 480px) {
+
+
+
+        /*	navbar/header part
+	/* -------------------------------------------------- */
+        .my-nav .navbar-brand img {
+            padding: 0px 0px;
+            width: 100px;
+            position: relative;
+        }
+        .my-nav .navbar-brand {
+            padding: 0px 0;
+        }
+        .navbar-nav {
+
+            left: 0%;
+        }
+        header {
+            position: relative;
+            width: 100%;
+        }
+        .social_media {
+            float: left;
+        }
+        .search-btn {
+            position: absolute;
+            right: 25px;
+        }
+        .search-txt {
+            width: 100%;
+        }
+        .search-box:hover > .search-txt {
+            width: 100%;
+            padding: 0 2px;
+        }
+        .mid_content {
+            top: 0;
+            left: 0;
+        }
+        .single_item .mid_content h1 {
+            font-size: 25px;
+            margin: 0;
+        }
+        .single_item .mid_content h2 {
+            font-size: 15px;
+            margin: 0;
+        }
+        .single_item .mid_content p {
+            margin: 10px;
+        }
+        .single_item .mid_content .btn1 {
+            padding: 5px 25px 0px 10px;
+            top: 0%;
+        }
+        .single_item .mid_content .btn1::before {
+            border-bottom: 38px solid #f46523;
+        }
+        .single_item .mid_content .btn1:hover::before {
+            border-bottom: 38px solid #fff;
+        }
+        .single_item .mid_content .btn2::before {
+            border-top: 38px solid #f46523;
+        }
+        .single_item .mid_content .btn2:hover::before {
+            border-top: 38px solid #fff;
+        }
+        .single_item .mid_content .btn2 {
+            padding: 5px 25px 0px 10px;
+            bottom: 5%;
+        }
+        /*	content part
+	/* -------------------------------------------------- */
+        .page_title {
+            height: 200px;
+
+        }
+        .similar_post_img {
+            margin-bottom: 10px;
+        }
+        .cat_img {
+            margin: 10px 0px;
+        }
+
+        .hover_icon a {
+            left: 265%;
+        }
+        .column {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 10px;
+        }
+        .release img {
+            height: 300px;
+            object-fit: cover;
+        }
+        .release_content {
+            top: 0%;
+            left: 20%;
+        }
+        .release_content h1 {
+            font-size: 25px;
+        }
+        .slider-active .owl-dots {
+            bottom: 0%;
+
+        }
+        .release_img img {
+            height: auto;
+        }
+        .category_img img {
+            width: 100%;
+        }
+
+    .free_movie:hover .free_movie_text {
+	height: 100%;
+        }
+        .hover_icon a {
+	left: 415%;
+}
+        .box_movie_text {
+
+	font-size: 12px;
+}
+    .text_hide {
+	font-size: 12px;
+}
+    .free_text_hide {
+	font-size: 12px;
+}
+.free_movie_text {
+
+	font-size: 12px;
+}
+    .free_movie:hover .free_movie_text {
+	height: 100%;
+        }
+        .realease_btn a {
+	padding: 5px 8px;
+	font-size: 14px;
+            margin-right: 10px;
+}
+        .release_img figcaption h5 {
+	font-size:20px;
+}
+    .release_img figcaption p {
+	font-size: 13px;
+}
+
+    }
+
+    @media only screen and (max-width:320px) {
+      
+
+        /*	navbar/header part
+	/* -------------------------------------------------- */
+        .my-nav .navbar-brand img {
+            padding: 0px 0px;
+            width: 100px;
+            position: relative;
+        }
+        .my-nav .navbar-brand {
+            padding: 0px 0;
+        }
+        .navbar-nav {
+
+            left: 0%;
+        }
+
+        header {
+            position: relative;
+            width: 100%;
+        }
+        .social_media {
+            float: left;
+        }
+        .search-btn {
+            position: absolute;
+            right: 25px;
+        }
+        .search-txt {
+            width: 100%;
+        }
+        .search-box:hover > .search-txt {
+            width: 100%;
+            padding: 0 2px;
+        }
+        .mid_content {
+            top: 0;
+            left: 0;
+        }
+        .single_item .mid_content h1 {
+            font-size: 25px;
+            margin: 0;
+        }
+        .single_item .mid_content h2 {
+            font-size: 13px;
+            margin: 0;
+        }
+        .single_item .mid_content p {
+            margin: 0;
+        }
+        .single_item .mid_content .btn1 {
+            padding: 5px 25px 0px 10px;
+            bottom: 5%;
+        }
+        .single_item .mid_content .btn1::before {
+            border-bottom: 30px solid #f46523;
+        }
+        .single_item .mid_content .btn1:hover::before {
+            border-bottom: 30px solid #fff;
+        }
+        .single_item .mid_content .btn2 {
+            padding: 5px 25px 0px 10px;
+            bottom: 5%;
+        }
+        .single_item .mid_content .btn2::before {
+            border-top: 30px solid #f46523;
+        }
+        .single_item .mid_content .btn2:hover::before {
+            border-top: 30px solid #fff;
+        }
+
+        /*	content part
+	/* -------------------------------------------------- */
+        .page_title {
+            height: 145px;
+            background-size: contain;
+
+        }
+        .cat_img {
+            margin: 10px 0px;
+        }
+
+        .hover_icon a {
+            left: 155%;
+        }
+        .column {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 10px;
+        }
+        .release img {
+            height: 300px;
+            object-fit: cover;
+        }
+        .release_content {
+            top: 0%;
+            left: 0;
+        }
+        .release_content h1 {
+            font-size: 25px;
+        }
+        .slider-active .owl-dots {
+            bottom: 0%;
+
+        }
+        .release_img img {
+            height: auto;
+        }
+        .box_movie_text {
+
+	font-size: 12px;
+}
+    .text_hide {
+	font-size: 12px;
+}
+    .free_text_hide {
+	font-size: 12px;
+}
+.free_movie_text {
+
+	font-size: 12px;
+}
+    .free_movie:hover .free_movie_text {
+	height: 100%;
+        }
+        .realease_btn a {
+	padding: 5px 8px;
+	font-size: 14px;
+            margin-right: 10px;
+}
+        .release_img figcaption h5 {
+	font-size:20px;
+}
+    .release_img figcaption p {
+	font-size: 13px;
+}
+        .hover_icon a {
+	left: 230%;
+}
+        
+        /*	footer part
+  	/* -------------------------------------------------- */
+    }
